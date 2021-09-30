@@ -1,0 +1,26 @@
+{
+  "name": "hrbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "hr",
+    "bot",
+    "organizacion"
+  ],
+  "author": "Carlos Aranguiz Bustos",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
